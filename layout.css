@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+
+/* body header */
+
+nav.horizontal{
+    background-color: purple;
+    height: 35px;
+}
+nav.horizontal > ul{
+    list-style: none;
+    float: right;
+    margin: 10px;
+}
+nav.horizontal li{
+    color: cornsilk;
+    float: left;
+    text-align: center;
+    margin-top: 0;
+    letter-spacing: 0.2em;
+}
+/* banner */
+
+img.banner{
+    height: 55px;
+}
+/* skills */
+section{
+    background: linear-gradient()
+}
+div.col-1-2{
+    display: block;
+    text-align: center;
+    padding: 50px;
+}
+div.col-1-3{
+    padding: 15px, 50px;
+
+}
+/* footer */
+
+footer{
+    width: 100%;
+    height: 35px;
+    color: cornsilk;
+    background-color: purple;
+    text-align: center
+}
