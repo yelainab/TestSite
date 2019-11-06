@@ -3,15 +3,20 @@
 
 /* body header */
 html{
-    height: 100%;
-    width: 100%;
+    height:100%;
+    background: rgb(223,211,212);
  }
  body{
-    margin-top: 0%;
-    width:100%;
+    margin-top: 0;
+    width:95%;
+    min-width: 640px;
+    max-width: 960px;
+    margin-left:auto;
+    margin-right:auto;
+    min-height: 100%;
  }
 nav.horizontal{
-    background-color: purple;
+    background-color: rgb(159, 118, 160);
     height: 35px;
 }
 nav.horizontal > ul{
@@ -21,7 +26,7 @@ nav.horizontal > ul{
     float: right;
 }
 nav.horizontal li{
-    color: cornsilk;
+    color: rgb(223,211,212);
     float: left;
     text-align: center;
     margin-bottom: 10px; 
@@ -29,8 +34,8 @@ nav.horizontal li{
     padding: 10px;
 }
 nav.horizontal li a:active, nav.horizontal li a:hover {
-    color: purple;
-    background-color: cornsilk;
+    color: rgb(159, 118, 160);
+    background-color: rgb(223,211,212);
     border-radius: 10px;
     padding: 5px;
  }
@@ -38,10 +43,11 @@ nav.horizontal li a:active, nav.horizontal li a:hover {
 img{
     width: 50%;
     height: 50%;
+    padding-left: 27%;
 }
 /* skills */
 section{
-    background: linear-gradient(rgba(120,0,120,0), rgb(125,0,125));
+    background: linear-gradient(rgba(120,0,120,0), rgb(159, 118, 160)65%);
 }
 div.col-1-2{
     float: left;
@@ -56,11 +62,10 @@ div.col-1-3{
 
 footer{
     width: 100%;
-    color: cornsilk;
-    background-color: purple;
+    color: rgb(223,211,212);
+    background-color: rgb(159, 118, 160);
     text-align: center;
     list-style-type: none;
     padding: 0px;
     margin: 0;
-    position: absolute;
 }
