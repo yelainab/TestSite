@@ -2,47 +2,65 @@
 
 
 /* body header */
-
+html{
+    height: 100%;
+    width: 100%;
+ }
+ body{
+    margin-top: 0%;
+    width:100%;
+ }
 nav.horizontal{
     background-color: purple;
     height: 35px;
 }
 nav.horizontal > ul{
+    padding: 0px;
+    margin: 0;
     list-style: none;
     float: right;
-    margin: 10px;
 }
 nav.horizontal li{
     color: cornsilk;
     float: left;
     text-align: center;
-    margin-top: 0;
-    letter-spacing: 0.2em;
+    margin-bottom: 10px; 
+    letter-spacing: 0.1em;
+    padding: 10px;
 }
+nav.horizontal li a:active, nav.horizontal li a:hover {
+    color: purple;
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding: 5px;
+ }
 /* banner */
-
-img.banner{
-    height: 55px;
+img{
+    width: 50%;
+    height: 50%;
 }
 /* skills */
 section{
-    background: linear-gradient()
+    background: linear-gradient(rgba(120,0,120,0), rgb(125,0,125));
 }
 div.col-1-2{
+    float: left;
     display: block;
     text-align: center;
     padding: 50px;
 }
 div.col-1-3{
     padding: 15px, 50px;
-
 }
 /* footer */
 
 footer{
     width: 100%;
-    height: 35px;
     color: cornsilk;
     background-color: purple;
-    text-align: center
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    position: absolute;
 }
