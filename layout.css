@@ -48,6 +48,7 @@ div#banner{
     background: url(banner1.PNG) top/60% no-repeat fixed;
 }
 div#banner h1{
+    color: rgb(159, 118, 160);
     font-size: 90px;
     text-align: center
 }
@@ -60,6 +61,7 @@ article h1{
     font-size: 40px;
 }
 section{
+    color: rgb(209,218,215);
     background: linear-gradient( rgba(120,0,120,0), rgb(159, 118, 160)55%);
 }
 div.col-1-2{
@@ -68,7 +70,7 @@ div.col-1-2{
     border-radius: 2px;
 }
 div.col-1-2 h1{
-    color: rgb(223, 211, 212);
+    color: rgb(209,218,215);
     font-size: 30px;
 }
 div.col-1-2 h2{
