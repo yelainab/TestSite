@@ -43,6 +43,7 @@ nav.horizontal li a:active, nav.horizontal li a:hover {
     border-radius: 10px;
     padding: 5px;
  }
+
 /* banner */
 
 div#banner{
@@ -65,7 +66,6 @@ div#about h1{
     font-size: 20px;
 }
 div#about p{
-    float: right;
     text-align: center;
     font-size: 25px;
 }
