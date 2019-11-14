@@ -13,12 +13,14 @@ div.row::after{
 div[class^="col-1"]{
     float: left;
 }
-
 div.col-1-1{
     width: 100%;
 }
 div.col-1-2{
     width: 50%;
+}
+div.col-2-3{
+    width: 67%;
 }
 div.col-1-3{
     width: 33%;
