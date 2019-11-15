@@ -4,148 +4,111 @@
 /* body header */
 html{
     height:100%;
-    background: rgb(209,218,215);
- }
- body{
-    background: rgb(223,211,212);
-    margin-bottom: 0;
-    margin-top: 0;
     width: 100%;
-    margin-left:auto;
-    margin-right:auto;
-    min-height: 100%;
- }
-nav.horizontal{
-    position: relative;
-    background-color: rgb(159, 118, 160);
-    height: 35px;
 }
-nav.horizontal > ul{
+body{
+    width: 100%;
+}
+/*header*/
+header{
+    background: rgb(159, 118, 160);
+}
+nav{
+    padding-left: 45%;
+    position: relative;
+    margin-bottom: 50px;
+}
+nav > ul{
     padding: 0px;
     margin: 0;
     list-style: none;
-    float: right;
 }
-nav.horizontal li{
+nav li {
     float: left;
     text-align: center;
     margin-bottom: 10px; 
-    font-size: 17px;
+    font-size: 20px;
     letter-spacing: 0.1em;
-    padding-top: 8px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 10px;
 }
-nav.horizontal li a{
+nav li a{
     text-decoration: none;
     color: rgb(223,211,212);
 }
-nav.horizontal li a:active, nav.horizontal li a:hover {
-    color: rgb(159, 118, 160);
-    background-color: rgb(223,211,212);
-    border-radius: 10px;
+nav li a:active, nav li a:hover {
+    color:rgb(159, 118, 160);
+    background: rgb(223,211,212);
+    border-radius: 15px;
     padding: 5px;
- }
-
-/* banner */
-
-div#banner{
-    padding-top: 30px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-    background: url(banner1.PNG) top/60%  no-repeat fixed;
 }
-div#banner h1{
-    color: rgb(159, 118, 160);
-    font-size: 80px; 
-    text-align: center;
+div#intro img{
+    width: 7in;
 }
-/* about */
-div#about h1{
-    margin-top: 75px;
-    margin-bottom: 0px;
-    text-align: center;
-    font-size: 45px;
+div#intro{
+    padding-left: 30px;
 }
 div#about{
-    padding-top: 150px;
-    padding-bottom: 150px;
+    height: 5in;
+}
+div#about h1{
+    padding-top: 50px;
+    color: rgb(223,211,212);
+    text-align: center;
+    font-size: 75px;
 }
 div#about p{
+    color: rgba(223,211,212,.7);
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
 }
-
-/* skills */
-article{
-    position: relative;
-}
-article h1{
-    
-    text-align: center;
-}
+/*skills*/
 section{
-    color: rgb(209,218,215);
-    background: linear-gradient( rgba(120,0,120,0), rgb(159, 118, 160)55%) no-repeat;
+    background: rgb(223,211,212);
 }
-article#skills h1{
-    padding: 0;
-    margin-top: 0px;
-    font-size: 45px;
-    text-align: center;
-    border: rgb(223, 211, 212);
-    border-radius: 2px;
+div#skills{
+   text-align: center;
+   padding-left: 17%;
 }
-article#skills p{
-    text-align: center;
-    font-size: 20px;
+div#code{
+    margin-top: 20px;
+    width: 450px;
+    border-right: rgb(159, 118, 160), 2px;
 }
-div#skill{
-    padding: 20px;
-    padding-bottom: 40px;
-}
-/* web */
-div#works{
-    display: none;
-    height: 200px;
-    text-align: center;
-    font-size: 20px;
-}
-div#works{
-    margin-left: 20px;
-    margin-right: 20px;
+div#code h1{
     color: rgb(159, 118, 160);
-    background: rgb(209,218,215);
-    padding: 20px
+    font-size: 30px;
 }
-div#works a{
-    text-decoration: none;
-}
-div#works a > img{
-    width: 2in;
-    border-radius: 15px;
-}
-div#works a > img:hover{
-    width: 2.5in;
+div#code p{
+    color: rgba(159, 118, 160,0.7);
+    font-size: 20px;
 }
 div#contact a{
-    font-size: 20px;
     text-decoration: none;
+    color: rgba(159, 118, 160,0.7);
+    font-size: 20px;
+}
+/*other work*/
+
+
+/*contact*/
+div#contact{
+    text-align: center;
+    padding-top: 15px;
+    height: 250px;
 }
 div#contact h1{
-    font-size: 45px;
+    color: rgb(159, 118, 160);
+    font-size: 50px;
+    margin-bottom: 0;
 }
-div#contact h1, div#contact h2{
-    text-align: center;
+div#contact p{
+    color: rgba(159, 118, 160,0.7);
+    font-size: 30px;
 }
-
-/* footer */
+/*footer*/
 footer{
-    width: 100%;
+    background: rgb(159, 118, 160);
     color: rgb(223,211,212);
-    background-color: rgb(159, 118, 160);
     text-align: center;
-    list-style-type: none;
-    padding: 0px;
-    margin: 0;
+    font-size: 20px;
 }
