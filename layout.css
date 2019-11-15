@@ -10,7 +10,7 @@ html{
     background: rgb(223,211,212);
     margin-bottom: 0;
     margin-top: 0;
-    width:100%;
+    width: 100%;
     margin-left:auto;
     margin-right:auto;
     min-height: 100%;
@@ -69,11 +69,11 @@ div#about h1{
 }
 div#about{
     padding-top: 150px;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 }
 div#about p{
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 /* skills */
@@ -81,37 +81,65 @@ article{
     position: relative;
 }
 article h1{
-    padding: 0;
-    margin-top: 75px;
-    margin-bottom: 0px;
+    
     text-align: center;
-    font-size: 40px;
 }
 section{
     color: rgb(209,218,215);
     background: linear-gradient( rgba(120,0,120,0), rgb(159, 118, 160)55%) no-repeat;
 }
-div#skills h1{
+article#skills h1{
+    padding: 0;
+    margin-top: 0px;
+    font-size: 45px;
     text-align: center;
     border: rgb(223, 211, 212);
     border-radius: 2px;
 }
-div#skills{
-    display: none;
-    text-align: center;
-}
-/* web */
-p#two{
+article#skills p{
     text-align: center;
     font-size: 20px;
-    background: 
 }
-p#one , p#three{
+div#skill{
+    padding: 20px;
+    padding-bottom: 40px;
+}
+/* web */
+div#works{
     display: none;
+    height: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+div#works{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(159, 118, 160);
+    background: rgb(209,218,215);
+    padding: 20px
+}
+div#works a{
+    text-decoration: none;
+}
+div#works a > img{
+    width: 2in;
+    border-radius: 15px;
+}
+div#works a > img:hover{
+    width: 2.5in;
+}
+div#contact a{
+    font-size: 20px;
+    text-decoration: none;
+}
+div#contact h1{
+    font-size: 45px;
+}
+div#contact h1, div#contact h2{
+    text-align: center;
 }
 
 /* footer */
-
 footer{
     width: 100%;
     color: rgb(223,211,212);
