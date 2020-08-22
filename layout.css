@@ -76,6 +76,7 @@ nav li{
 .div5{ 
     grid-area: 2 / 2 / 7 / 6; 
     margin-bottom: 10px;
+    display: flex;
 }
 
 .div5 h1{
@@ -83,8 +84,23 @@ nav li{
     font-size: 55px;
     color: black;
 }
+.type{
+    position: relative;
+}
+.type::after{
+    content: "";
+    border-right: 2px solid black;
+    right: -5px;
+    width: 1px;
+    height: 15%;
+    position: absolute;
+    animation: blink 1s infinite ease;
+}
 
-
+@keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
 /* introduction bar */
 
 p{
